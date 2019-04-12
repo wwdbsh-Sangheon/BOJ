@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 
 public class Main{
-							 //우,좌,하,상
+
 	private static int[] dx = {0, 0, 1, -1};
 	private static int[] dy = {1, -1, 0, 0};
 	private static int n, ans = 0;
