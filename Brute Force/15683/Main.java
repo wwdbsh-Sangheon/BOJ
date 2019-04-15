@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 
 public class Main{
-							//R, L, D, U
+	
 	private static int[] dx = {0, 0, 1, -1};
 	private static int[] dy = {1, -1, 0, 0};
 	private static ArrayList<Cctv> cctv = new ArrayList<Cctv>();
@@ -95,12 +95,12 @@ public class Main{
 
 				// 한 경우에 ㄱ자 모양 방향으로 체크.
 				for(int i = 0; i < 2; i++){
-						for(int j = 2; j < 4; j++){
-							copyMap(map, copy);
-							update(copy, cctv, i);
-							update(copy, cctv, j);
-							dfs(copy, idx+1, count);
-						}
+					for(int j = 2; j < 4; j++){
+						copyMap(map, copy);
+						update(copy, cctv, i);
+						update(copy, cctv, j);
+						dfs(copy, idx+1, count);
+					}
 				}
 				break;
 
