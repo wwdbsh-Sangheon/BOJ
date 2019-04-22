@@ -64,7 +64,7 @@ next:	for(int i = 123; i <= 987; i++){
 		System.out.println(ans);
 		br.close();
 	}
-
+	
 	// 질문을 나타낼 객체를 표현한 클래스.
 	private static class Question{
 
