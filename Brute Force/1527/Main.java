@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-// 주어진 범위 안에서 4와 7로만 이루어진 수의 개수를 찾는 문제.
+// 주어진 범위 안에서 4와 7로만 이루어진 수(금민수)의 개수를 찾는 문제.
 public class Main{
 
 	private static int a, b, ans = 0;
