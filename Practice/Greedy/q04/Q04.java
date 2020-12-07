@@ -1,4 +1,3 @@
-// 만들 수 없는 금액 315p 510p
 import java.io.*;
 import java.util.*;
 

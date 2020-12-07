@@ -1,4 +1,3 @@
-# 1이 될 때까지 99p
 n, k = map(int, input().split())
 result = 0
 

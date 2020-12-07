@@ -1,4 +1,3 @@
-# 거스름돈 87p
 n = int(input())
 count = 0
 

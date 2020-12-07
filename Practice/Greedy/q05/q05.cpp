@@ -1,4 +1,3 @@
-// 볼링공 고르기 315p 513p
 #include <iostream>
 #include <algorithm>
 

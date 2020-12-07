@@ -7,5 +7,4 @@ while n >= 3:
         break
     n -= 3 # 3킬로그램 봉지 사용
     result += 1
-
 print(result if n == 0 else -1)

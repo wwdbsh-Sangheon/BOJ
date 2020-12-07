@@ -1,4 +1,4 @@
-import java.io.*; // 모험가 길드 311p 507p
+import java.io.*;
 import java.util.*;
 
 public class Q01 {

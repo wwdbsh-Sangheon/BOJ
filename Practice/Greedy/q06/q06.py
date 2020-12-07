@@ -1,4 +1,3 @@
-# 무지의 먹방 라이브 317p 513p
 import heapq
 
 def solution(food_times, k):

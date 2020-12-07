@@ -1,4 +1,3 @@
-# 문자열 뒤집기 313p 509p
 s = input()
 zero = 0
 one = 0

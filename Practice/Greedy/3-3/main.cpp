@@ -1,4 +1,3 @@
-// 숫자 카드 게임 96p
 #include <iostream>
 #include <algorithm>
 #include <string>

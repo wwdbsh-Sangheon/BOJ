@@ -1,4 +1,3 @@
-// 큰 수의 법칙 92p
 import java.io.*;
 import java.util.*;
 
