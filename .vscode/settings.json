@@ -6,6 +6,9 @@
         "**/.factorypath": true
     },
     "files.associations": {
-        "algorithm": "cpp"
+        "algorithm": "cpp",
+        "iostream": "cpp",
+        "utility": "cpp",
+        "vector": "cpp"
     }
 }
