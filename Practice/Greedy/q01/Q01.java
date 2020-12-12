@@ -21,13 +21,6 @@ public class Q01 {
             }
         }
         
-        // for(int idx = 0; idx < n; idx++){
-        //     int fear = people[idx];
-        //     if(idx+fear >= n) break;
-        //     idx += (fear - 1);
-        //     result++;
-        // }
-        
         System.out.println(result);
         br.close();
     }
