@@ -100,7 +100,3 @@ bool solution(vector<vector<int>> key, vector<vector<int>> lock) {
     }
     return answer ? answer : check(check_lock, key.size()); // 자물쇠에 홈이 없을 경우를 처리해주기 위한 로직
 }
-
-int main(void){
-    cout << solution({{0, 0, 0}, {1, 0, 0}, {0, 1, 1}}, {{1, 1, 1}, {1, 1, 1}, {1, 1, 1}}) << "\n";
-}
