@@ -37,5 +37,3 @@ def move(x, y, sec):
         plan.pop(0)
     
     return move(x+direction[head][0], y+direction[head][1], sec+1)
-
-print(move(0, 1, 1))
