@@ -2,13 +2,13 @@ import sys
 sys.setrecursionlimit(10000)
 
 def calculate(n1, n2, op):
-    if op == 0:
+    if op == 0: # +
         return n1+n2
-    if op == 1:
+    if op == 1: # -
         return n1-n2
-    if op == 2:
+    if op == 2: # *
         return n1*n2
-    if op == 3:
+    if op == 3: # //
         return ((n1)*-1//n2)*-1 if n1 < 0 else n1//n2
 
 def dfs(cal_v, idx, count):
@@ -27,7 +27,7 @@ def dfs(cal_v, idx, count):
 
 n = int(input())
 numbers = list(map(int, input().split()))
-operations = list(map(int, input().split())) # 0:+ 1:- 2:* 3:/
+operations = list(map(int, input().split()))
 max_ans, min_ans = -1e9, 1e9
 dfs(numbers[0], 1, 0)
 print(max_ans)
