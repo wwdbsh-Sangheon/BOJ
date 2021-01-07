@@ -10,6 +10,8 @@
         "iostream": "cpp",
         "utility": "cpp",
         "vector": "cpp",
-        "xstddef": "cpp"
+        "xstddef": "cpp",
+        "system_error": "cpp",
+        "xlocale": "cpp"
     }
 }
