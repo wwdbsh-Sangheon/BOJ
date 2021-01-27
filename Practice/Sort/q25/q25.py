@@ -12,6 +12,3 @@ def solution(N, stages):
         ans[stage-1][0] = count / (len(stages)-idx+count)
     ans.sort(key=lambda x:(-x[0], x[1]))
     return [s[1] for s in ans]
-
-# print(solution(5, [2, 1, 2, 6, 2, 4, 3, 3]))
-print(solution(4, [4,4,4,4,4]))
