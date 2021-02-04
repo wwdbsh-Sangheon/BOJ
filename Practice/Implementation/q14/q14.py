@@ -4,7 +4,6 @@ def solution(n, weak, dist):
     length = len(weak)
     for i in range(length):
         weak.append(weak[i]+n)
-    print(list(permutations(dist, len(dist))))
     answer = len(dist)+1
     for start in range(length):
         for friends in list(permutations(dist, len(dist))):
