@@ -128,7 +128,7 @@ vector<int> solution(vector<string> words, vector<string> queries) {
         if(type != -1){
             for(int j = 0; j < word_map[key_len].size(); j++){
                 string word = word_map[key_len][j];
-                if(word.length() == keyword.length() && check_match(keyword, word, 0, key_len-1, type)){
+                if(check_match(keyword, word, 0, key_len-1, type)){
                     count++;
                 }
             }
