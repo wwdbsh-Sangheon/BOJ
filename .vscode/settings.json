@@ -12,6 +12,7 @@
         "vector": "cpp",
         "xstddef": "cpp",
         "system_error": "cpp",
-        "xlocale": "cpp"
+        "xlocale": "cpp",
+        "xstring": "cpp"
     }
 }
