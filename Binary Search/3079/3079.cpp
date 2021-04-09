@@ -1,17 +1,24 @@
 #include <iostream>
 #include <algorithm>
-#include <vector>
 
 using namespace std;
 
-vector<int> avaliable;
 long long t[100000];
-bool chk[100000];
 int n, m;
 
-long long b_search(int start, int end){
+long long b_search(long long start, long long end, long long min_time){
     if(start > end){
-        
+        return min_time;
+    }
+    long long mid = (start+end)/2;
+    long long sum = 0;
+    for(int i = 0; i < n; i++){
+        sum += mid/t[i];
+    }
+    if(sum >= m){
+        return b_search(start, mid-1, min(min_time, mid));
+    }else{
+        return b_search(mid+1, end, min_time);
     }
 }
 
@@ -21,16 +28,5 @@ int main(void){
         cin >> t[i];
     }
     sort(t, t+n);
-    while(m != 0){
-        for(int i = 0; i < n; i++){
-            if(!chk[i]){
-                chk[i] = true;
-                m--;
-            }
-            if(m == 0){
-                break;
-            }
-
-        }
-    }
+    cout << b_search(0, m*t[n-1], m*t[n-1]) << "\n";
 }
