@@ -2,12 +2,12 @@
 
 알고리즘 문제 풀이
 
-| Category | # of Solved Problems |
+| Category | Solved |
 |:---------|---------------------:|
 | [Binary Search](https://github.com/wwdbsh/boj/tree/master/Binary%20Search) | 10 |
 | [Brute Force](https://github.com/wwdbsh/boj/tree/master/Brute%20Force) | 40 |
 | [DFS BFS](https://github.com/wwdbsh/boj/tree/master/DFS_BFS) | 10 |
-| [Dijkstra](https://github.com/wwdbsh/boj/tree/master/Dijkstra) | 1 |
+| [Dijkstra](https://github.com/wwdbsh/boj/tree/master/Dijkstra) | 2 |
 | [Divide & Conquer](https://github.com/wwdbsh/boj/tree/master/Divide%20and%20Conquer) | 7 |
 | [Dynamic Programming](https://github.com/wwdbsh/boj/tree/master/Dynamic%20Programming) | 10 |
 | Floyd-Warshall | 0 |
