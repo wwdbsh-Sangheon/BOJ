@@ -10,7 +10,7 @@
 | [Dijkstra](https://github.com/wwdbsh/boj/tree/master/Dijkstra) | 5 |
 | [Divide & Conquer](https://github.com/wwdbsh/boj/tree/master/Divide%20and%20Conquer) | 7 |
 | [Dynamic Programming](https://github.com/wwdbsh/boj/tree/master/Dynamic%20Programming) | 10 |
-| Floyd-Warshall | 0 |
+| [Floyd-Warshall](https://github.com/wwdbsh/boj/tree/master/Floyd-Warshall) | 1 |
 | [Greedy](https://github.com/wwdbsh/boj/tree/master/Greedy) | 35 |
 | [Implementation](https://github.com/wwdbsh/boj/tree/master/Implementation) | 15 |
 | [Sorting](https://github.com/wwdbsh/boj/tree/master/Sorting) | 5 |
