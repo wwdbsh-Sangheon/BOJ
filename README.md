@@ -15,4 +15,3 @@
 | 09 | [Implementation](https://github.com/wwdbsh/boj/tree/master/Implementation) | 15 |
 | 10 | [Sorting](https://github.com/wwdbsh/boj/tree/master/Sorting) | 5 |
 | 11 | [이것이 취업을 위한 코딩 테스트다](https://github.com/wwdbsh/boj/tree/master/Practice) | 71 |
-|    | TOTAL | 210 |
