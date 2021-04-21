@@ -15,5 +15,5 @@
 | 09 | [Implementation](https://github.com/wwdbsh/boj/tree/master/Implementation) (구현) | 15 |
 | 10 | [Sorting](https://github.com/wwdbsh/boj/tree/master/Sorting) (정렬) | 5 |
 | 11 | [Disjoint Set](https://github.com/wwdbsh/boj/tree/master/Disjoint-Set) (그래프 이론:서로소 집합) | 5 |
-| 12 | [Minimum spanning tree](https://github.com/wwdbsh/boj/tree/master/Minimum-Spanning-Tree) (그래프 이론:크루스칼) | 1 |
+| 12 | [Minimum spanning tree](https://github.com/wwdbsh/boj/tree/master/Minimum-Spanning-Tree) (그래프 이론:크루스칼) | 2 |
 | 13 | [이것이 취업을 위한 코딩 테스트다](https://github.com/wwdbsh/boj/tree/master/Practice) | 71 |
