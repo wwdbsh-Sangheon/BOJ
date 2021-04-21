@@ -14,5 +14,5 @@
 | 08 | [Greedy](https://github.com/wwdbsh/boj/tree/master/Greedy) (그리디) | 35 |
 | 09 | [Implementation](https://github.com/wwdbsh/boj/tree/master/Implementation) (구현) | 15 |
 | 10 | [Sorting](https://github.com/wwdbsh/boj/tree/master/Sorting) (정렬) | 5 |
-| 11 | [Disjoint Set](https://github.com/wwdbsh/boj/tree/master/Disjoint-Set) (그래프 이론:서로소 집합) | 3 |
+| 11 | [Disjoint Set](https://github.com/wwdbsh/boj/tree/master/Disjoint-Set) (그래프 이론:서로소 집합) | 4 |
 | 12 | [이것이 취업을 위한 코딩 테스트다](https://github.com/wwdbsh/boj/tree/master/Practice) | 71 |
