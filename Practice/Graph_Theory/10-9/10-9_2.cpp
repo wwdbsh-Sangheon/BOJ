@@ -43,6 +43,7 @@ int main(void){
             int pre;
             cin >> pre;
             if(pre == -1) break;
+            indegree[i]++;
             graph[pre].push_back(i);
         }
     }
