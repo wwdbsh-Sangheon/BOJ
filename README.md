@@ -16,5 +16,5 @@
 | 10 | [Sorting](https://github.com/wwdbsh/boj/tree/master/Sorting) (정렬) | 5 |
 | 11 | [Disjoint Set](https://github.com/wwdbsh/boj/tree/master/Disjoint-Set) (그래프 이론: 서로소 집합) | 5 |
 | 12 | [Minimum Spanning Tree](https://github.com/wwdbsh/boj/tree/master/Minimum-Spanning-Tree) (그래프 이론: 크루스칼) | 5 |
-| 13 | [Topological Sorting](https://github.com/wwdbsh/boj/tree/master/Topological-Sorting) (그래프 이론: 위상 정렬) | 2 |
+| 13 | [Topological Sorting](https://github.com/wwdbsh/boj/tree/master/Topological-Sorting) (그래프 이론: 위상 정렬) | 3 |
 | 14 | [이것이 취업을 위한 코딩 테스트다](https://github.com/wwdbsh/boj/tree/master/Practice) | 71 |
