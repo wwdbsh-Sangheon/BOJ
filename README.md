@@ -11,7 +11,7 @@
 | 05 | [Divide & Conquer](https://github.com/wwdbsh/boj/tree/master/Divide%20and%20Conquer) (분할 정복) | 7 |
 | 06 | [Dynamic Programming](https://github.com/wwdbsh/boj/tree/master/Dynamic%20Programming) (동적 계획법) | 10 |
 | 07 | [Floyd-Warshall](https://github.com/wwdbsh/boj/tree/master/Floyd-Warshall) (최단 경로: 플로이드 와샬) | 5 |
-| 08 | [Greedy](https://github.com/wwdbsh/boj/tree/master/Greedy) (그리디) | 37 |
+| 08 | [Greedy](https://github.com/wwdbsh/boj/tree/master/Greedy) (그리디) | 38 |
 | 09 | [Implementation](https://github.com/wwdbsh/boj/tree/master/Implementation) (구현) | 15 |
 | 10 | [Sorting](https://github.com/wwdbsh/boj/tree/master/Sorting) (정렬) | 5 |
 | 11 | [Disjoint Set](https://github.com/wwdbsh/boj/tree/master/Disjoint-Set) (그래프 이론: 서로소 집합) | 5 |
