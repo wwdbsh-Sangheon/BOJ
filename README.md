@@ -13,7 +13,7 @@
 | 07 | [Floyd-Warshall](https://github.com/wwdbsh/boj/tree/master/Floyd-Warshall) (최단 경로: 플로이드 와샬) | 5 |
 | 08 | [Greedy](https://github.com/wwdbsh/boj/tree/master/Greedy) (그리디) | 40 |
 | 09 | [Implementation](https://github.com/wwdbsh/boj/tree/master/Implementation) (구현) | 18 |
-| 10 | [Sorting](https://github.com/wwdbsh/boj/tree/master/Sorting) (정렬) | 5 |
+| 10 | [Sorting](https://github.com/wwdbsh/boj/tree/master/Sorting) (정렬) | 6 |
 | 11 | [Disjoint Set](https://github.com/wwdbsh/boj/tree/master/Disjoint-Set) (그래프 이론: 서로소 집합) | 5 |
 | 12 | [Minimum Spanning Tree](https://github.com/wwdbsh/boj/tree/master/Minimum-Spanning-Tree) (그래프 이론: 크루스칼) | 5 |
 | 13 | [Topological Sorting](https://github.com/wwdbsh/boj/tree/master/Topological-Sorting) (그래프 이론: 위상 정렬) | 3 |
