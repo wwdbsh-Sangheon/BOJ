@@ -1,58 +1,45 @@
+import sys
+sys.setrecursionlimit(10000)
+
 n, m = map(int, input().split())
 board = []
-visited = [[False for _ in range(m)] for _ in range(n)]
+visited = [[False]*m for _ in range(n)]
+cheese_count = 0
 for _ in range(n):
-    board.append(list(map(int, input().split())))
+    line = []
+    for i in list(map(int, input().split())):
+        if i == 1:
+            cheese_count += 1
+        line.append(i)
+    board.append(line)
 direction = [(1, 0), (-1, 0), (0, 1), (0, -1)]
-
-def check(x, y):
-    c = 0
-    for d in direction:
-        nx = x + d[0]
-        ny = y + d[1]
-        if board[nx][ny] == 0:
-            c += 1
-        if c == 2:
-            return True
-    return False
 
 def dfs(x, y):
     for d in direction:
         nx = x + d[0]
         ny = y + d[1]
-        if (board[nx][ny] == 1 or board[nx][ny] == 2) and not visited[nx][ny]:
-            visited[nx][ny] = True
-            if check(nx, ny):
-                board[nx][ny] = 2
-            dfs(nx, ny)
-            visited[nx][ny] = False
+        if nx >= 0 and nx < n and ny >= 0 and ny < m:
+            if board[nx][ny] != 0:
+                board[nx][ny] += 1
+            if not visited[nx][ny] and board[nx][ny] == 0:
+                visited[nx][ny] = True
+                dfs(nx, ny)
 
 def melt():
-    global board
+    global cheese_count, board
     for i in range(n):
         for j in range(m):
-            if board[i][j] == 2:
+            if board[i][j] > 2:
                 board[i][j] = 0
-
-def print_board():
-    rt = ""
-    for i in range(n):
-        for j in range(m):
-            rt += str(board[i][j]) + " "
-        rt += "\n"
-    return rt
+                cheese_count -= 1
+            elif board[i][j] == 2:
+                board[i][j] = 1
 
 t = 0
-for i in range(n):
-    for j in range(m):
-        if board[i][j] == 1:
-            visited[i][j] = True
-            if check(i, j):
-                board[i][j] = 2
-            dfs(i, j)
-            visited[i][j] = False
-            melt()
-            t += 1
-            print(print_board())
+while cheese_count != 0:
+    visited[0][0] = True
+    dfs(0, 0)
+    visited = [[False]*m for _ in range(n)]
+    melt()
+    t += 1
 print(t)
-
