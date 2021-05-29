@@ -6,7 +6,7 @@
 |:--:|:---------------|-------:|
 | 01 | [Binary Search](https://github.com/wwdbsh/boj/tree/master/Binary%20Search) (이분 탐색) | 10 |
 | 02 | [Brute Force](https://github.com/wwdbsh/boj/tree/master/Brute%20Force) (완전 탐색) | 40 |
-| 03 | [DFS BFS](https://github.com/wwdbsh/boj/tree/master/DFS_BFS) (깊이, 너비 우선 탐색) | 13 |
+| 03 | [DFS BFS](https://github.com/wwdbsh/boj/tree/master/DFS_BFS) (깊이, 너비 우선 탐색) | 14 |
 | 04 | [Dijkstra](https://github.com/wwdbsh/boj/tree/master/Dijkstra) (최단 경로: 다익스트라) | 5 |
 | 05 | [Divide & Conquer](https://github.com/wwdbsh/boj/tree/master/Divide%20and%20Conquer) (분할 정복) | 7 |
 | 06 | [Dynamic Programming](https://github.com/wwdbsh/boj/tree/master/Dynamic%20Programming) (동적 계획법) | 10 |
